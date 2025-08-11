@@ -1,0 +1,21 @@
+Crie 10 notícias no formato JSON abaixo. A notícia deve ser fictícia ou baseada em eventos reais, e conter informações coerentes.
+
+Formato:
+{
+  "title": "Título da notícia",
+  "tag": "Categoria principal da notícia (ex: Tecnologia, Jogos, Política, Esportes, etc.)",
+  "author": "Nome do autor",
+  "author_abbr": "Duas primeiras iniciais do autor (ex: João Vitor Carmassi → JV)",
+  "created_at": "AAAA-MM-DD",
+  "image": "URL de uma imagem ilustrativa relacionada à notícia",
+  "content_markdown": "Conteúdo da notícia em markdown, com pelo menos um título (#), subtítulos (##) e negrito quando necessário. O conteúdo deve ser bem estruturado, com introdução, desenvolvimento e conclusão.",
+  "url": "Link da noticia no formatpo: /linkRelacionadoANoticia"
+}
+
+Regras:
+- O campo "created_at" deve estar na data atual.
+- O campo "author_abbr" deve ter apenas duas letras maiúsculas, as iniciais do nome e sobrenome.
+- O texto em "content_markdown" deve ter pelo menos 4 parágrafos.
+- Use informações fictícias ou reais, mas sem violar direitos autorais.
+- Mantenha o conteúdo envolvente e interessante para o leitor.
+- As noticias devem estar em ingles
